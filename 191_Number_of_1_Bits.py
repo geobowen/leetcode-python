@@ -24,4 +24,9 @@ class Solution:
 
         # method 3
         return bin(n).count('1')
+        
+
+        # method 4
+        # > python 3.10
+        return n.bit_count()
         '''
